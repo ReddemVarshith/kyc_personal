@@ -1,0 +1,16 @@
+document_path,standardized_path,extracted_text,preprocessed_address
+c:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg,c:\Users\91830\Desktop\Kyc\data\aadhar_sample.png,"Governmentofindia
+
+Padhaar
+
+Name: John Doe
+
+Date of Birth: 01/01/1080
+
+Gender: Male
+
+‘Address 123, Main Street Near Park, Cityuille, Sate, 123456
+Fathers Name: Richard Doo
+
+PIN: 123458
+","ADDRESS 123, MAIN STREET NEAR PARK, CITYUILLE, SATE, 123456"

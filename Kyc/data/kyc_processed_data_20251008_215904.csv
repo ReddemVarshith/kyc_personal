@@ -1,0 +1,30 @@
+document_path,standardized_path,extracted_text,anonymized_text,preprocessed_address,validation_passed,validation_errors
+C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg,c:\Users\91830\Desktop\Kyc\data\aadhar_sample.png,"Governmentofindia
+
+Padhaar
+
+Name: John Doe
+
+Date of Birth: 01/01/1080
+
+Gender: Male
+
+‘Address 123, Main Street Near Park, Cityuille, Sate, 123456
+Fathers Name: Richard Doo
+
+PIN: 123458
+","Governmentofindia
+
+Padhaar
+
+John Doe: [NAME_ANONYMIZED]
+
+01/01/1080: [DOB_ANONYMIZED]
+
+Male: [GENDER_ANONYMIZED]
+
+‘123, Main Street Near Park, Cityuille, Sate, 123456: [ADDRESS_ANONYMIZED]
+s Richard Doo: [NAME_ANONYMIZED]: [FATHER_ANONYMIZED]
+
+123458: [PIN_ANONYMIZED]
+","123, MAIN STREET NEAR PARK, CITYUILLE, SATE, 123456",False,"[""Missing or empty Father's Name field""]"

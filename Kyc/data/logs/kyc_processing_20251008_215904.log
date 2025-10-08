@@ -1,0 +1,31 @@
+2025-10-08 21:59:04,015 - INFO - DataProcessor initialized
+2025-10-08 21:59:04,018 - INFO - BatchProcessor initialized with batch size: 5
+2025-10-08 21:59:04,018 - INFO - Starting batch processing of documents in C:\Users\91830\Desktop\Kyc\data\raw_documents
+2025-10-08 21:59:04,018 - INFO - Getting document batches from C:\Users\91830\Desktop\Kyc\data\raw_documents
+2025-10-08 21:59:04,018 - INFO - Created 1 batches from 1 documents
+2025-10-08 21:59:04,124 - INFO - Processing batch 1/1
+2025-10-08 21:59:04,125 - INFO - Processing batch of 1 documents
+2025-10-08 21:59:04,125 - INFO - Starting document processing for: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg
+2025-10-08 21:59:04,126 - INFO - Processing document: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg
+2025-10-08 21:59:04,126 - INFO - Standardizing document format: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg -> c:\Users\91830\Desktop\Kyc\data\aadhar_sample.png
+2025-10-08 21:59:04,153 - INFO - Successfully standardized document to PNG
+2025-10-08 21:59:04,154 - INFO - Starting OCR text extraction from c:\Users\91830\Desktop\Kyc\data\aadhar_sample.png
+2025-10-08 21:59:04,342 - INFO - Successfully extracted 185 characters of text
+2025-10-08 21:59:04,343 - INFO - Starting data validation
+2025-10-08 21:59:04,343 - WARNING - Missing required field: Father's Name
+2025-10-08 21:59:04,344 - WARNING - Data validation failed with 1 errors
+2025-10-08 21:59:04,344 - WARNING - Validation errors for C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg:
+2025-10-08 21:59:04,344 - WARNING -   - Missing or empty Father's Name field
+2025-10-08 21:59:04,345 - INFO - Starting address preprocessing
+2025-10-08 21:59:04,346 - INFO - Successfully preprocessed address: 123, MAIN STREET NEAR PARK, CITYUILLE, SATE, 123456
+2025-10-08 21:59:04,346 - INFO - Starting data anonymization
+2025-10-08 21:59:04,347 - INFO - Data anonymization completed
+2025-10-08 21:59:04,347 - INFO - Successfully processed document: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg
+2025-10-08 21:59:04,351 - INFO - Completed processing 1 documents
+2025-10-08 21:59:04,352 - INFO - Successfully processed batch with 1 documents
+2025-10-08 21:59:04,352 - INFO - Batch 1 completed: 1 documents processed
+2025-10-08 21:59:04,356 - INFO - Saved intermediate results to c:\Users\91830\Desktop\Kyc\data\processed_data_batch_1.csv
+2025-10-08 21:59:04,357 - INFO - Completed processing all documents: 1 total documents processed
+2025-10-08 21:59:04,359 - INFO - Data exported to CSV: c:\Users\91830\Desktop\Kyc\data\kyc_processed_data_20251008_215904.csv
+2025-10-08 21:59:04,366 - ERROR - Error exporting results: No module named 'openpyxl'
+2025-10-08 21:59:04,368 - INFO - Data exported to JSON: c:\Users\91830\Desktop\Kyc\data\kyc_processed_data_20251008_215904.json

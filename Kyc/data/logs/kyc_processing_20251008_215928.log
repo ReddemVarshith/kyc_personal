@@ -1,0 +1,31 @@
+2025-10-08 21:59:28,089 - INFO - DataProcessor initialized
+2025-10-08 21:59:28,090 - INFO - BatchProcessor initialized with batch size: 5
+2025-10-08 21:59:28,090 - INFO - Starting batch processing of documents in C:\Users\91830\Desktop\Kyc\data\raw_documents
+2025-10-08 21:59:28,090 - INFO - Getting document batches from C:\Users\91830\Desktop\Kyc\data\raw_documents
+2025-10-08 21:59:28,090 - INFO - Created 1 batches from 1 documents
+2025-10-08 21:59:28,100 - INFO - Processing batch 1/1
+2025-10-08 21:59:28,100 - INFO - Processing batch of 1 documents
+2025-10-08 21:59:28,100 - INFO - Starting document processing for: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg
+2025-10-08 21:59:28,101 - INFO - Processing document: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg
+2025-10-08 21:59:28,101 - INFO - Standardizing document format: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg -> c:\Users\91830\Desktop\Kyc\data\aadhar_sample.png
+2025-10-08 21:59:28,120 - INFO - Successfully standardized document to PNG
+2025-10-08 21:59:28,120 - INFO - Starting OCR text extraction from c:\Users\91830\Desktop\Kyc\data\aadhar_sample.png
+2025-10-08 21:59:28,297 - INFO - Successfully extracted 185 characters of text
+2025-10-08 21:59:28,297 - INFO - Starting data validation
+2025-10-08 21:59:28,298 - WARNING - Missing required field: Father's Name
+2025-10-08 21:59:28,299 - WARNING - Data validation failed with 1 errors
+2025-10-08 21:59:28,299 - WARNING - Validation errors for C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg:
+2025-10-08 21:59:28,299 - WARNING -   - Missing or empty Father's Name field
+2025-10-08 21:59:28,300 - INFO - Starting address preprocessing
+2025-10-08 21:59:28,301 - INFO - Successfully preprocessed address: 123, MAIN STREET NEAR PARK, CITYUILLE, SATE, 123456
+2025-10-08 21:59:28,301 - INFO - Starting data anonymization
+2025-10-08 21:59:28,302 - INFO - Data anonymization completed
+2025-10-08 21:59:28,302 - INFO - Successfully processed document: C:\Users\91830\Desktop\Kyc\data\raw_documents\aadhar_sample.jpg
+2025-10-08 21:59:28,303 - INFO - Completed processing 1 documents
+2025-10-08 21:59:28,303 - INFO - Successfully processed batch with 1 documents
+2025-10-08 21:59:28,303 - INFO - Batch 1 completed: 1 documents processed
+2025-10-08 21:59:28,307 - INFO - Saved intermediate results to c:\Users\91830\Desktop\Kyc\data\processed_data_batch_1.csv
+2025-10-08 21:59:28,308 - INFO - Completed processing all documents: 1 total documents processed
+2025-10-08 21:59:28,309 - INFO - Data exported to CSV: c:\Users\91830\Desktop\Kyc\data\kyc_processed_data_20251008_215928.csv
+2025-10-08 21:59:28,498 - INFO - Data exported to Excel: c:\Users\91830\Desktop\Kyc\data\kyc_processed_data_20251008_215928.xlsx
+2025-10-08 21:59:28,499 - INFO - Data exported to JSON: c:\Users\91830\Desktop\Kyc\data\kyc_processed_data_20251008_215928.json
